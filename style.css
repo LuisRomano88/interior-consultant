@@ -1,0 +1,255 @@
+/* --view desktop-- */
+
+@media screen and (min-width: 481px) and (max-width: 1600px) {
+  body {
+    background: #181719;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-left: 10%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    height: 22px;
+    padding: 10px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+  }
+
+  .menu a {
+    margin-right: 3%;
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+  }
+
+  .material-symbols-outlined{
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+  }
+
+  .text {
+    color: #fff;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .text h2 {
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .text p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    width: 50%;
+  }
+
+  .text a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .menu .active {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    font-size: 25px;
+  }
+
+  .image img {
+    width: 100%;
+    height: 555px;
+  }
+
+  .card {
+    width: 30%;
+    height: 189px;
+    background-color: #181719;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -100px;
+    left: 63%;
+    box-shadow: 0px 15px 9px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .card-header-p {
+    flex-direction: column;
+    margin-left: 20px;
+    color: #fff;
+    line-height: 8px;
+  }
+
+  .card-header img {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+  }
+
+  .card-body p {
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    margin-left: 20px;
+  }
+}
+
+/* --view mobile-- */
+
+@media screen and (max-width: 480px) and (min-width: 100px) {
+  body {
+    background-color: #181719;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    height: 22px;
+    padding: 10px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .material-symbols-outlined {
+    font-size: 2rem;
+    margin-left: 70%;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .menu a {
+  }
+
+  .container {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  .text {
+  }
+
+  .text h2 {
+    font-family: Lora;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .text p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 60%;
+  }
+
+  .text a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu .active {
+  }
+
+  .image img{
+    margin-top: 40px;
+    width: 100%;
+    height: 280px;
+  }
+
+  .card{
+    width: 90%;
+    height: 138px;
+    background-color: #181719;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -100px;
+    left: 5%;
+    right: 5%;
+    box-shadow: 0px 15px 9px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .card-header-p {
+    flex-direction: column;
+    margin-left: 20px;
+    color: #fff;
+    line-height: 8px;
+  }
+
+  .card-header img {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+  }
+
+  .card-body p {
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    margin-left: 20px;
+  }
+}
